@@ -1,0 +1,7 @@
+.headline {
+    text-align: center;
+    background-color: rgb(55, 55, 236);
+    background: linear-gradient(to bottom, rgb(55, 55, 236) 5%, rgb(0, 0, 105) 100%);
+    color: white;
+    padding: 15px;
+}

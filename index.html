@@ -1,12 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    <script src = "./assets/jss/script.js"></script>
+    <h1 class="headline">Weather Dashboard</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="column col-md-3">
+                <h4>Search for a City:</h4>
+                <div class="form-group form=inline">
+                    <input type="text" placeholder="Select City">
+                    <button>
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <ul>
+
+                </ul>
+            </div>
+
+            <div class="column col-md-9">
+                <div class="jumbotron">
+                    <h3 id="jumboCityName">city</h3>
+                    <div id="icon"></div>
+                    <div id="jumboTemp">Temp:</div>
+                    <div id="jumboWind">Wind:</div>
+                    <div id="jumboHumidity">Humidity:</div>
+                    <div id="jumboUV">UV Index:</div>
+                </div>
+
+                <h4>5-Day Forecast:</h4>
+                <div class = "row">
+                    <div class="card col-12 col-md">
+                        <div class = "card-body">
+                            <h5 class="card-title" id="day1"></h5>
+                            <div class = "img1"></div>
+                            <p class="card-text" id="temp1"></p>
+                            <p class="card-text" id="wind1"></p>
+                            <p class="card-text" id="humidity1"></p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md">
+                        <div class = "card-body">
+                            <h5 class="card-title" id="day2"></h5>
+                            <div class = "img2"></div>
+                            <p class="card-text" id="temp2"></p>
+                            <p class="card-text" id="wind2"></p>
+                            <p class="card-text" id="humidity2"></p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md">
+                        <div class = "card-body">
+                            <h5 class="card-title" id="day3"></h5>
+                            <div class = "img3"></div>
+                            <p class="card-text" id="temp3"></p>
+                            <p class="card-text" id="wind3"></p>
+                            <p class="card-text" id="humidity3"></p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md">
+                        <div class = "card-body">
+                            <h5 class="card-title" id="day4"></h5>
+                            <div class = "img4"></div>
+                            <p class="card-text" id="temp4"></p>
+                            <p class="card-text" id="wind4"></p>
+                            <p class="card-text" id="humidity4"></p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md">
+                        <div class = "card-body">
+                            <h5 class="card-title" id="day5"></h5>
+                            <div class = "img5"></div>
+                            <p class="card-text" id="temp5"></p>
+                            <p class="card-text" id="wind5"></p>
+                            <p class="card-text" id="humidity5"></p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/jss/script.js"></script>
 </body>
+
 </html>
