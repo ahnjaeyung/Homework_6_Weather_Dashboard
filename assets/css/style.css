@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: rgb(223, 223, 223);
+    background-color: lightskyblue;
 }
 .headline {
     text-align: center;
@@ -23,18 +23,17 @@ body {
     border-radius: 15px;
     background-color: white;
 }
-.card-body {
+.card-body, .jumbotron {
     border-radius: 15px;
     color: white;
     background-color: lightskyblue;
-}
-.jumbotron {
-    border-radius: 15px;
-    color: white;
-    background-color: lightskyblue;
+    border: 1.5px solid white;
 }
 .btn-secondary {
     border-radius: 15px;
     color: white;
     background-color: rgb(13, 13, 231);
+}
+#citySearch, #searchBtn {
+    border-radius: 15px;
 }
