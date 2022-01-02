@@ -1,7 +1,11 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(223, 223, 223);
+}
 .headline {
     text-align: center;
     background-color: rgb(55, 55, 236);
-    background: linear-gradient(to bottom, rgb(55, 55, 236) 5%, rgb(0, 0, 105) 100%);
+    background: linear-gradient(to bottom, rgb(13, 13, 231) 5%, lightskyblue);
     color: white;
     padding: 15px;
 }
@@ -10,7 +14,27 @@
 }
 .moderate {
     background-color: yellow;
+    color: black;
 }
 .severe {
     background-color: red;
+}
+.card {
+    border-radius: 15px;
+    background-color: white;
+}
+.card-body {
+    border-radius: 15px;
+    color: white;
+    background-color: lightskyblue;
+}
+.jumbotron {
+    border-radius: 15px;
+    color: white;
+    background-color: lightskyblue;
+}
+.btn-secondary {
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(13, 13, 231);
 }

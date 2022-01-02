@@ -69,7 +69,6 @@ function weatherForecast(city) {
                         $("#jumboUv").attr("class", "severe");
                     }
 
-
                     $("#day1").text(moment().add(1, "days").format("L"));
                     $("#temp1").text("Temp: " + data.daily[1].temp.day + "℉");
                     $("#img1").attr("src", "https://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png");
@@ -100,15 +99,5 @@ function weatherForecast(city) {
                     $("#wind5").text("Wind: " + data.daily[5].wind_speed + " MPH");
                     $("#humidity5").text("Humidity: " + data.daily[5].humidity + " %");
                 }); //end of second fetch
-
-
         }); // end of first fetch
 } //end of weatherForecast function definition
-            // fetch(uvUrl)
-            //     .then(function (response) {
-            //         console.log(response);
-            //         return response.json();
-            //     })
-            //     .then(function (data) {
-            //         console.log(data)
-            //     })
