@@ -24,8 +24,8 @@ function searchBtnClick(event) {
 
 function cityButtons() {
     document.querySelector("#cityArray").innerHTML = "";
-    for (i = 0; i < cityArray.length; i++){
-        document.querySelector("#cityArray").innerHTML+=`<li onclick="weatherForecast('${cityArray[i]}')"class="btn btn-primary mb-1">${cityArray[i]}</li>`
+    for (i = 0; i < cityArray.length; i++) {
+        document.querySelector("#cityArray").innerHTML += `<li onclick="weatherForecast('${cityArray[i]}')"class="btn btn-primary mb-1">${cityArray[i]}</li>`
     }
 } // end of cityButtons function definition
 
