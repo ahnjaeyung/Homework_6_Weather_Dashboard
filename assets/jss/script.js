@@ -19,12 +19,13 @@ function searchBtnClick(event) {
     cityArray.push(city);
     localStorage.cityArray = JSON.stringify(cityArray);
     weatherForecast(city);
+    cityButtons();
 } // end of searchBtnClick function definition
 
 function cityButtons() {
     document.querySelector("#cityArray").innerHTML = "";
     for (i = 0; i < cityArray.length; i++){
-        document.querySelector("#cityArray").innerHTML+=`<li onclick="weatherForecast('${cityArray[i]}')"class="btn btn-secondary mb-1">${cityArray[i]}</li>`
+        document.querySelector("#cityArray").innerHTML+=`<li onclick="weatherForecast('${cityArray[i]}')"class="btn btn-primary mb-1">${cityArray[i]}</li>`
     }
 } // end of cityButtons function definition
 
