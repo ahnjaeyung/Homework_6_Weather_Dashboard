@@ -1,4 +1,4 @@
-# Homework 6: Weather Dashboard #
+# Weather Dashboard #
 Weather Dashboard - Jae Ahn
 ![Weather Dashboard Screenshot](./assets/images/screenshot.png)
 ![Weather Dashboard Gif](./assets/images/weatherdashboard.gif)
@@ -25,4 +25,4 @@ Some of the methods used in creating this application were found fro resources s
 
 Link to Deployed Application
 ---------------
-[Weather Dashboard](https://ahnjaeyung.github.io/Homework_6_Weather_Dashboard/)
+[Weather Dashboard](https://ahnjaeyung.github.io/Weather_Dashboard/)
